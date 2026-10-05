@@ -1,6 +1,5 @@
-length = input("enter the length: ")
-width = input("enter the width: ")
+length = float(input("enter the length: "))
+width = float(input("enter the width: "))
 
-print("Area: " + str(int(length) * int(width)) + "m²")
-print("Perimeter: " + str(2 * int(length) + 2 * int(width)) + "m")
-
+print("Area: " + str(float(length) * float(width)) + "m²")
+print("Perimeter: " + str(2 * float(length) + 2 * float(width)) + "m")
