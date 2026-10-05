@@ -3,7 +3,7 @@ stud_id = input("Enter your student ID: ")
 dep = input("Enter your department: ")
 year = input("Enter your year: ")
 uni = input("Enter your university name: ")
-phone = input("Enter your phone number: ")
+phone_num = input("Enter your phone number: ")
 
 print("+--------------------------------+")
 print("|       AKIBA STUDENT CARD       |")
@@ -13,6 +13,7 @@ print("| ID: " + stud_id + "            |")
 print("| Department: " + dep + "        |")
 print("| Year: " + year + "             |")
 print("| University: " + uni + "        |")
-print("| Phone: " + phone + "           |")
+print("| Phone: " + phone_num + "       |")
 print("+--------------------------------+")
+
 
