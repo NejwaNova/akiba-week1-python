@@ -1,0 +1,17 @@
+name = input("Enter student name: ")
+python_score = float(input("Enter Python score: "))
+english_score = float(input("Enter English score: "))
+math_score = float(input("Enter Mathematics score: "))
+
+average = (python_score + english_score + math_score)
+
+print("\n========================================")
+print("           STUDENT RESULT")
+print("========================================")
+print(f"\nStudent: {name}\n")
+print(f"Python:\t\t{python_score}")
+print(f"English:\t{english_score}")
+print(f"Mathematics:\t{math_score}")
+print("----------------------------------------")
+print(f"Average:\t{average:.2f}")
+print("========================================")
